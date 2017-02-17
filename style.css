@@ -59,6 +59,7 @@ h1 {
 
 .main-content p {
   text-indent: 20px;
+  font-size: 18px;
 }
 
 .ingredients {
@@ -70,7 +71,7 @@ h1 {
 
 .ingredients div {
   width: 50%;
-  text-indent: 30px;
+  text-indent: 40px;
 }
 
 .ingredients div  div {
@@ -85,4 +86,24 @@ fieldset {
 
 .about {
   border-top: groove;
+  width: 100%;
+}
+
+.about img, .about div{
+  display: inline-block;
+}
+
+.vanessa {
+  width: 70%
+}
+
+.share {
+  text-align: right;
+  width: 100px;
+  height: 100%;
+}
+
+footer {
+  text-align: center;
+border-top: groove;
 }
