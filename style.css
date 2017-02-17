@@ -1,0 +1,110 @@
+body {
+  width: 80%;
+  margin: auto;
+  background-image: url('lab-assets/luke-chesser-48.jpg');
+}
+
+header {
+  border-bottom: groove;
+  margin: auto;
+  height: 8%;
+}
+
+header div {
+  display: inline-block;
+  height: 100%;
+  width: 46%;
+}
+
+header .images {
+  margin-right: 0;
+  text-align: right;
+}
+
+header h2 {
+  font-size: 22px;
+}
+
+header p {
+  font-size: 10px;
+}
+
+.sub-heading {
+  width: 100%;
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.sub-heading p, .sub-heading .sub-heading-right {
+  display: inline-block;
+  width: 49%;
+  text-indent: 0;
+  font-size: 12px;
+}
+
+.sub-heading-right {
+  text-align: right;
+  margin-right: 0;
+}
+
+#print {
+  width: 15%;
+}
+
+#finished-picture{
+  width: 100%;
+}
+
+.main-content p {
+  text-indent: 20px;
+  font-size: 18px;
+}
+
+.ingredients {
+  background-image: url('lab-assets/list-bg.png');
+  font-size: 26px;
+  display: inline-flex;
+  width: 100%;
+}
+
+.ingredients div {
+  width: 50%;
+  text-indent: 40px;
+}
+
+.ingredients div  div {
+  display: block;
+  width: 100%;
+}
+
+
+fieldset {
+  margin-bottom: 10%;
+}
+
+.about {
+  border-top: groove;
+  width: 100%;
+}
+
+.about img, .about div{
+  display: inline-block;
+}
+
+.vanessa {
+  width: 70%
+}
+
+.share {
+  text-align: right;
+  width: 100px;
+  height: 100%;
+}
+
+footer {
+  text-align: center;
+border-top: groove;
+}
